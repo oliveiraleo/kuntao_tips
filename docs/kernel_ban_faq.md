@@ -34,7 +34,7 @@ In a given time between last January and February, Google issued a ban on some (
 
 ### Q5: I already have followed the instructions, my device is passing the Play Integrity check but I can't use my bank app or GPay. What can I do?
 
-**A:** Besides checking the Play Integrity status, apps can detect custom ROMs using other methods. You can try some things like hiding/renaming the Magisk app (app settings > Hide the Magisk app), deleting the TWRP folder from your phone's internal storage, adding the banking app to the Magisk's DenyList, etc. If any of this works, I don't know what else you can do.
+**A:** Besides checking the Play Integrity status, apps can detect custom ROMs using other methods. You can try some things like hiding/renaming the Magisk app (app settings > Hide the Magisk app), deleting the TWRP folder from your phone's internal storage, adding the banking app to the Magisk's DenyList, change device props, change device finger print, etc. If any of this works, I don't know what else you can do.
 
 **PS:** If you find a working workaround, please, join our Telegram group (@p2community) and kindly share it with the community ;)
 
@@ -44,7 +44,11 @@ In a given time between last January and February, Google issued a ban on some (
 
 **A:** They will have the Play Integrity patch applied on the coming builds, so please, be patient. Hopefully I'll be able to release those builds in the coming days.
 
-### Q7: Is this situation temporary?
+### Q7: My device isn't passing Play Integrity strong check, is it normal?
+
+**A:** Yes, as stated on Play Integrity Fix's [official FAQ Q6](https://xdaforums.com/t/pif-faq.4653307/post-89302976) and [repository Wiki](https://github.com/chiteroman/PlayIntegrityFix/wiki/MEETS_STRONG_INTEGRITY), the fix is only for device and basic checks
+
+### Q8: Is this situation temporary?
 
 **A:** From what I read from the online discussions, the fix should work for a long time (as far as Google/app developers don't update/change their detection methods), however I can't make any assumption, so I'm not sure.
 
