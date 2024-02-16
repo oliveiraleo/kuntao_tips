@@ -8,15 +8,15 @@ In a given time between last January and February, Google issued a ban on some (
 
 ## FAQ
 
-### Q: How can I check my Play Integrity status?
+### Q1: How can I check my Play Integrity status?
 
 **A:** Use this app ["Play Integrity API Checker"](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck) by Nikolas Spiridakis
 
-### Q: Why did you change LOS18.1 sources?
+### Q2: Why did you change LOS18.1 sources?
 
 **A:** LOS [officially stated](https://wiki.lineageos.org/quirks/snet/) that they wouldn't be willing to apply nor release any patch that might help evading the Play Integrity checks. So I had to look somewhere else.
 
-### Q: Wait, so now you have dropped the official LOS18.1 sources, right?
+### Q3: Wait, so now you have dropped the official LOS18.1 sources, right?
 
 **Short answer:** No.
 
@@ -24,7 +24,7 @@ In a given time between last January and February, Google issued a ban on some (
 
 **NOTE:** As I know that having the official sources for some of you is important, in February, 2024 releases there will be two ZIP files (one using the official sources and other with the custom kernel). However I can't promise I'll keep making these separate releases for long as we are currently maintaining LOS18.1, 19.1, 20.0 and more recently 21.0 in a monthly basis.
 
-### Q: I'm using one of your builds and it failed to pass the Play Integrity check. What should I do to fix that?
+### Q4: I'm using one of your builds and it failed to pass the Play Integrity check. What should I do to fix that?
 
 **A:** Please, follow the instructions linked below:
 
@@ -32,17 +32,19 @@ In a given time between last January and February, Google issued a ban on some (
 - LOS20.0: [Click here](https://xdaforums.com/t/rom-13-unofficial-lineageos-20-for-lenovo-p2.4563083/post-88260597)
 - LOS21.0: Use a non-rooted system, it will pass the check
 
-### Q: I already have followed the instructions, my device is passing the Play Integrity check but I can't use my bank app or GPay. What can I do?
+### Q5: I already have followed the instructions, my device is passing the Play Integrity check but I can't use my bank app or GPay. What can I do?
 
 **A:** Besides checking the Play Integrity status, apps can detect custom ROMs using other methods. You can try some things like hiding/renaming the Magisk app (app settings > Hide the Magisk app), deleting the TWRP folder from your phone's internal storage, adding the banking app to the Magisk's DenyList, etc. If any of this works, I don't know what else you can do.
 
 **PS:** If you find a working workaround, please, join our Telegram group (@p2community) and kindly share it with the community ;)
 
-### Q: What about the other LOS builds?
+**NOTE:** This is an ongoing issue and the DTs are in active developmet, as soon as we have an updated patch/method/etc we will release hotfix builds
+
+### Q6: What about the other LOS builds?
 
 **A:** They will have the Play Integrity patch applied on the coming builds, so please, be patient. Hopefully I'll be able to release those builds in the coming days.
 
-### Q: Is this situation temporary?
+### Q7: Is this situation temporary?
 
 **A:** From what I read from the online discussions, the fix should work for a long time (as far as Google/app developers don't update/change their detection methods), however I can't make any assumption, so I'm not sure.
 
