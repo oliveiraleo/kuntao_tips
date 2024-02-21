@@ -1,6 +1,6 @@
 # Kernel Ban FAQ
 
-As I'm the current mainteiner/[builder of some](https://xdaforums.com/f/lenovo-p2-roms-kernels-recoveries-other-devel.6152/) Lenovo P2 (kuntao) custom ROMs (mostly LineageOS (LOS) unofficial), I wanted to have a word with our community regarding the recent kernel ban issued by Google.
+As I'm currently the maintainer/[builder of some](https://xdaforums.com/f/lenovo-p2-roms-kernels-recoveries-other-devel.6152/) Lenovo P2 (kuntao) custom ROMs (mostly LineageOS (LOS) unofficial), I wanted to have a word with our community regarding the recent kernel ban issued by Google.
 
 ## Context
 
@@ -34,23 +34,25 @@ In a given time between last January and February, Google issued a ban on some (
 
 ### Q5: I already have followed the instructions, my device is passing the Play Integrity check but I can't use my bank app or GPay. What can I do?
 
-**A:** Besides checking the Play Integrity status, apps can detect custom ROMs using other methods. You can try some things like hiding/renaming the Magisk app (app settings > Hide the Magisk app), deleting the TWRP folder from your phone's internal storage, adding the banking app to the Magisk's DenyList, change device props, change device finger print, etc. If any of this works, I don't know what else you can do.
+**A:** Besides checking the Play Integrity status, apps can detect custom ROMs using other methods. You can try some things like hiding/renaming the Magisk app (app settings > Hide the Magisk app), deleting the TWRP folder from your phone's internal storage, adding the banking app to the Magisk's DenyList, change device props, change device finger print, etc. If none of this works, I don't know what else you can do.
 
 **PS:** If you find a working workaround, please, join our Telegram group (@p2community) and kindly share it with the community ;)
 
-**NOTE:** This is an ongoing issue and the DTs are in active developmet, as soon as we have an updated patch/method/etc we will release hotfix builds
+~~**NOTE:** This is an ongoing issue and the DTs are in active development, as soon as we have an updated patch/method/etc we will release hot fix builds~~
 
-### Q6: What about the other LOS builds?
+**Update:** Hot fix builds have been released already, thanks for you patience.
 
-**A:** They will have the Play Integrity patch applied on the coming builds, so please, be patient. Hopefully I'll be able to release those builds in the coming days.
+~~### Q6: What about the other LOS builds?~~
 
-### Q7: My device isn't passing Play Integrity strong check, is it normal?
+~~**A:** They will have the Play Integrity patch applied on the coming builds, so please, be patient. Hopefully I'll be able to release those builds in the coming days.~~
 
-**A:** Yes, as stated on Play Integrity Fix's [official FAQ Q6](https://xdaforums.com/t/pif-faq.4653307/post-89302976) and [repository Wiki](https://github.com/chiteroman/PlayIntegrityFix/wiki/MEETS_STRONG_INTEGRITY), the fix is only for device and basic checks
+### Q7: My device isn't passing Play Integrity's strong check, is it normal?
+
+**A:** Yes, as stated on Play Integrity Fix's [official FAQ Q6](https://xdaforums.com/t/pif-faq.4653307/post-89302976) and [repository Wiki](https://github.com/chiteroman/PlayIntegrityFix/wiki/MEETS_STRONG_INTEGRITY), the fix is only for device and basic checks.
 
 ### Q8: Is this situation temporary?
 
-**A:** From what I read from the online discussions, the fix should work for a long time (as far as Google/app developers don't update/change their detection methods), however I can't make any assumption, so I'm not sure.
+**A:** From what I read from the online discussions, the fix should work for a long time (as far as Google or app developers don't update/change their detection methods), however I can't make any assumption, so I'm not sure.
 
 ## Acknowledgements
 
@@ -58,4 +60,4 @@ I'd like to thank [Chiteroman](https://github.com/chiteroman), [osm0sis](https:/
 
 A huge thanks to [Astridxx](https://github.com/Astridxx) and [Alucard-Storm](https://github.com/Alucard-Storm) for maintaining the kuntao DTs updated and for promptly applying and releasing the patch for our device.
 
-*Page last updated on Feb 16th, 2024*
+*Page last updated on Feb 21th, 2024*
