@@ -32,7 +32,7 @@ In a given time between last January and February, Google issued a ban on some (
 - ~~LOS20.0: [Click here](https://xdaforums.com/t/rom-13-unofficial-lineageos-20-for-lenovo-p2.4563083/post-88260597)~~
 - ~~LOS21.0: Non-rooted systems still pass if rooted, follow [these updated instructions](https://xdaforums.com/t/rom-14-unofficial-lineageos-21-for-lenovo-p2.4656752/post-89344146)~~
 
-As of February, 29th Google issued a new device finger print ban. This means that our builds will fail the device integrity check for now. Stay tunned to new updates on this situation.
+As of February, 29th Google issued a [new device finger print ban](https://t.me/EvolutionXOfficial/1959). This means that our builds will fail the device integrity check for now, even those using [the PIF method](https://t.me/playintegrityfix/183140). Stay tuned to new updates on this situation.
 
 ### Q5: I already have followed the instructions, my device is passing the Play Integrity check but I can't use my bank app or GPay. What can I do?
 
