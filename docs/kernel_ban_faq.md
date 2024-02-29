@@ -44,7 +44,7 @@ As of February, 29th Google issued a new device finger print ban. This means tha
 
 **Update:** Hot fix builds have been released already, thanks for you patience.
 
-~~### Q6: What about the other LOS builds?~~
+### ~~Q6: What about the other LOS builds?~~
 
 ~~**A:** They will have the Play Integrity patch applied on the coming builds, so please, be patient. Hopefully I'll be able to release those builds in the coming days.~~
 
