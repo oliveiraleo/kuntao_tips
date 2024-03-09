@@ -26,13 +26,13 @@ In a given time between last January and February, Google issued a ban on some (
 
 ### Q4: I'm using one of your builds and it failed to pass the Play Integrity check. What should I do to fix that?
 
-**A:** Please, follow the instructions linked below:
+**A:** If your device is **rooted (using Magisk)**, please, follow the instructions from [this thread post](https://xdaforums.com/t/rom-11-unofficial-lineageos-18-1-for-lenovo-p2.4547559/post-88073787) (scroll down to the "Method #2 - Rooted/Magisk Install​" part). Otherwise, if your device is **not rooted** you still need to wait some more days until the next release cycle*
 
-- ~~LOS18.1 & LOS19.1: [Click here](https://xdaforums.com/t/rom-11-unofficial-lineageos-18-1-for-lenovo-p2.4547559/post-88073787)~~
-- ~~LOS20.0: [Click here](https://xdaforums.com/t/rom-13-unofficial-lineageos-20-for-lenovo-p2.4563083/post-88260597)~~
-- ~~LOS21.0: Non-rooted systems still pass if rooted, follow [these updated instructions](https://xdaforums.com/t/rom-14-unofficial-lineageos-21-for-lenovo-p2.4656752/post-89344146)~~
+\* I can't provide an ETA but the devs are working to try to fix this issue and I hope we will have patched working builds
 
 As of February, 29th Google issued a [new device finger print ban](https://t.me/EvolutionXOfficial/1959). This means that our builds will fail the device integrity check for now, even those using [the PIF method](https://t.me/playintegrityfix/183140). Stay tuned to new updates on this situation.
+
+**Update (08/03/2024):** PIF method is working again, update your module
 
 ### Q5: I already have followed the instructions, my device is passing the Play Integrity check but I can't use my bank app or GPay. What can I do?
 
@@ -62,4 +62,4 @@ I'd like to thank [Chiteroman](https://github.com/chiteroman), [osm0sis](https:/
 
 A huge thanks to [Astridxx](https://github.com/Astridxx) and [Alucard-Storm](https://github.com/Alucard-Storm) for maintaining the kuntao DTs updated and for promptly applying and releasing the patch for our device.
 
-*Page last updated on Feb 29th, 2024*
+*Page last updated on Mar 08th, 2024*
