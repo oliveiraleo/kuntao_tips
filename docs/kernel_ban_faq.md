@@ -66,10 +66,14 @@ As of February, 29th Google issued a [new device finger print ban](https://t.me/
 
 **NOTE:** If you still use LOS18.1, you could prepare to migrate to LOS19.1 or, if storage encryption isn't a requirement for you, to LOS20 (a clean flash will be required whichever option you choose)
 
+### Q10: I'm using the latest version of your LOS builds but since May 2024 Play Integrity is failing again, what happened?
+
+**A:** If you are on LOS18.1, the unofficial support by me was dropped given that LOS stopped developing its sources (for more information please read [this announcement here](https://xdaforums.com/t/rom-11-unofficial-eol-lineageos-18-1-for-lenovo-p2.4547559/post-89391832) and the [FAQ#9 above](#q9-im-using-your-patched-los181-march-2024-build-but-play-integrity-is-now-failing-again-what-happened)). If you are on LOS19.1, LOS20 or LOS21, I've made updated builds to merge the latest sources however google now [requires that](https://t.me/playintegrityfix/47) the [builds are signed](https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/post-89526334) in order to pass the PI check. Currently I plan to work on this so unrooted installations can pass the check again, however I've to work to pay my bills, so I can't provide an ETA right now. If you are in a hurry and really need to pass PI check, consider making a rooted installation and use the module suggested in [this post here](https://xdaforums.com/t/rom-11-unofficial-eol-lineageos-18-1-for-lenovo-p2.4547559/post-88073787) (scroll down to the Method #2).
+
 ## Acknowledgements
 
 I'd like to thank [Chiteroman](https://github.com/chiteroman), [osm0sis](https://github.com/osm0sis) and the PlayIntegrityFix community for [their efforts](https://github.com/chiteroman/PlayIntegrityFix/issues/236) in figuring it out what has happened and then helping with fixing it.
 
 A huge thanks to [Astridxx](https://github.com/Astridxx) and [Alucard-Storm](https://github.com/Alucard-Storm) for maintaining the kuntao DTs, for promptly applying and releasing the patch for our device, and for helping me apply them on my builds.
 
-*Page last updated on March 10th, 2024*
+*Page last updated on May 30th, 2024*
