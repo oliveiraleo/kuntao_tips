@@ -70,10 +70,16 @@ As of February, 29th Google issued a [new device finger print ban](https://t.me/
 
 **A:** If you are on LOS18.1, the unofficial support by me was dropped given that LOS stopped developing its sources (for more information please read [this announcement here](https://xdaforums.com/t/rom-11-unofficial-eol-lineageos-18-1-for-lenovo-p2.4547559/post-89391832) and the [FAQ#9 above](#q9-im-using-your-patched-los181-march-2024-build-but-play-integrity-is-now-failing-again-what-happened)). If you are on LOS19.1, LOS20 or LOS21, I've made updated builds to merge the latest sources however google now [requires that](https://t.me/playintegrityfix/47) the [builds are signed](https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/post-89526334) in order to pass the PI check. Currently I plan to work on this so unrooted installations can pass the check again, however I've to work to pay my bills, so I can't provide an ETA right now. If you are in a hurry and really need to pass PI check, consider making a rooted installation and use the module suggested in [this post here](https://xdaforums.com/t/rom-11-unofficial-eol-lineageos-18-1-for-lenovo-p2.4547559/post-88073787) (scroll down to the Method #2).
 
+### Q11: I'm using the latest version of your LOS builds but since October 2024 Play Integrity is failing again, what happened?
+
+**A:** On 21th October*, Google issued a new ban wave. As soon as a new working finger print or method is found I'll try to release hotfix builds. If you are using Magisk, install latest version of PIF ([currently v17.8](https://github.com/chiteroman/PlayIntegrityFix/releases/tag/v17.8)).
+
+\* Some sources: [PIF Telegram channel](https://t.me/playintegrityfix/252), [PIF Next Telegram channel](https://t.me/PifNEXT/54), [Reddit's r/ingress post](https://old.reddit.com/r/Ingress/comments/1g9baux/and_i_wanted_to_go_out_and_play/)
+
 ## Acknowledgements
 
 I'd like to thank [Chiteroman](https://github.com/chiteroman), [osm0sis](https://github.com/osm0sis) and the PlayIntegrityFix community for [their efforts](https://github.com/chiteroman/PlayIntegrityFix/issues/236) in figuring it out what has happened and then helping with fixing it.
 
 A huge thanks to [Astridxx](https://github.com/Astridxx) and [Alucard-Storm](https://github.com/Alucard-Storm) for maintaining the kuntao DTs, for promptly applying and releasing the patch for our device, and for helping me apply them on my builds.
 
-*Page last updated on May 30th, 2024*
+*Page last updated on Oct 23rd, 2024*
